@@ -1,10 +1,72 @@
 !['alt ](./public/extra.png)
 
-# **PlanMate**
+# PlanMate - Study Roadmap Creator
 
-Here's a README file for PlanMate. It includes all the necessary instructions for installation and running the project.
+## Overview
 
-This is a project built using [Vite](https://vitejs.dev/) and [React](https://reactjs.org/), with [Tauri](https://tauri.app/) to enable building desktop applications. This guide will help new contributors install the necessary dependencies and run the project.
+**PlanMate** is a MERN stack-based web application designed to help students create and manage customized study roadmaps. It enables users to break down their study tasks into smaller, manageable chunks while providing a visual, step-wise flowchart for easy tracking and organization.
+
+## Problem Statement
+
+**Category**: Junior  
+**Team Name**: Access Denied  
+**Team Members**:  
+- **Niraj Salunke** (Team Leader)  
+- **Harsh Gaggar**  
+- **Kaustubh Gharat**  
+
+**Figma Design**: [PlanMate Figma Design](https://www.figma.com/design/hUfqz0440DETRiXYhqq9VR/Untitled?t=h4nE84GhnKqko28M-1)
+
+## Features
+
+- **Visual Roadmaps**: Create and visualize study plans using customizable flowcharts.
+- **Task Management**: Break down complex subjects into smaller tasks for easier organization.
+- **Progress Tracking**: Keep track of task completion and deadlines.
+- **Resource Management**: Attach study materials directly to tasks for streamlined resource management.
+- **Collaboration**: Share and copy study plans to promote peer learning.
+- **Goal-Oriented Design**: Focus on setting and achieving learning goals.
+- **Gamification**: Earn badges and track progress to stay motivated.
+- **AI Recommendations (Future Integration)**: Personalized study material suggestions to enhance learning.
+
+## Tech Stack
+
+### Frontend:
+- **TypeScript**
+- **Vite + React** (with **Tauri** for desktop app creation)
+- **TailwindCSS**
+- **GSAP & Three.js** (for animations)
+- **React-Flow** (for flowchart generation)
+
+### Backend:
+- **Node.js**
+- **Express.js**
+
+### Database:
+- **MongoDB**
+
+## Solution Architecture
+
+PlanMate’s frontend communicates with the backend through **RESTful APIs** built using **Express.js**, ensuring seamless data flow between the user interface and server. For scalability, it’s built on the MERN stack, which can handle increased loads and allows easy adjustments to the database.
+
+### Key Technologies:
+- **React + Tauri**: Frontend technologies that enable desktop app creation.
+- **React-Flow**: For smooth implementation of visual flowcharts.
+
+### Key Algorithms:
+- **Task Management**: Breaks down subjects into smaller tasks using CRUD operations.
+- **Progress Tracking**: Tracks task completion percentages.
+- **Resource Linking**: Allows attaching URLs and study resources to specific tasks.
+
+## Feasibility & Challenges
+
+PlanMate leverages open-source technologies, minimizing development costs and risks. However, potential challenges include:
+
+- **User Adoption**: Students may find it difficult to switch to a new tool.
+- **Data Security**: Handling personal study plans requires strict data protection measures.
+
+### Strategies:
+- **Unique Visual Roadmaps**: A distinctive feature that sets PlanMate apart from other study planners.
+- **Data Security**: Strong encryption and secure authentication methods to protect user data.
 
 ## Prerequisites
 
