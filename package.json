@@ -21,14 +21,15 @@
     "tailwindcss": "^3.4.13",
     "vite": "^5.4.4"
   },
-  "dependencies": {s
+  "dependencies": {
     "@tabler/icons-react": "^3.19.0",
     "@tanstack/react-router": "^1.58.17",
     "@tanstack/router-devtools": "^1.58.17",
     "chart.js": "^4.4.4",
     "clsx": "^2.1.1",
-    "mini-svg-data-uri": "^1.4.4",
     "framer-motion": "^11.9.0",
+    "mini-svg-data-uri": "^1.4.4",
+    "planmate": "file:",
     "react": "^18.3.1",
     "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.3.1",
