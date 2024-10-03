@@ -8,5 +8,5 @@ export const Route = createFileRoute("/about")({
 function AboutComponent() {
   // console.log(useLocation());
 
-  return <main className="w-screen h-screen ">sdsd</main>;
+  return <main className="w-screen h-screen "></main>;
 }
