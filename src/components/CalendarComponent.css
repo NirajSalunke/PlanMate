@@ -1,0 +1,5 @@
+.hidden-date {
+    visibility: hidden; /* Hide the dates that are from other months */
+    pointer-events: none; /* Make them non-clickable */
+  }
+  

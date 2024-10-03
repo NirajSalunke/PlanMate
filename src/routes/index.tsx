@@ -2,6 +2,10 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { SignupFormDemo } from "../components/SignUp";
 import EarthCanvas from "../components/Earth";
+import * as React from "react";
+import { createFileRoute } from "@tanstack/react-router";
+import Calendar from "react-calendar";
+import CalendarComponent from "../components/CalendarComponent";
 
 export const Route = createFileRoute("/")({
   component: HomeComponent,
