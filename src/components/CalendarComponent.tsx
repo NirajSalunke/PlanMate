@@ -20,7 +20,6 @@ export default function DateCalendarValue() {
               value={value}
               onChange={(newValue) => setValue(newValue)}
             />
-         
         </DemoContainer>
       </LocalizationProvider>
     </div>
