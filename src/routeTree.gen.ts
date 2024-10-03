@@ -98,12 +98,12 @@ export interface FileRoutesById {
 }
 
 export interface FileRouteTypes {
-	fileRoutesByFullPath: FileRoutesByFullPath;
-	fullPaths: "/" | "/about";
-	fileRoutesByTo: FileRoutesByTo;
-	to: "/" | "/Home" | "/about" | "/roadmap";
-	id: "__root__" | "/" | "/Home" | "/about" | "/roadmap";
-	fileRoutesById: FileRoutesById;
+  fileRoutesByFullPath: FileRoutesByFullPath
+  fullPaths: '/' | '/Home' | '/about' | '/roadmap'
+  fileRoutesByTo: FileRoutesByTo
+  to: '/' | '/Home' | '/about' | '/roadmap'
+  id: '__root__' | '/' | '/Home' | '/about' | '/roadmap'
+  fileRoutesById: FileRoutesById
 }
 
 export interface RootRouteChildren {
@@ -133,7 +133,9 @@ export const routeTree = rootRoute
       "filePath": "__root.tsx",
       "children": [
         "/",
-        "/about"
+        "/Home",
+        "/about",
+        "/roadmap"
       ]
     },
     "/": {

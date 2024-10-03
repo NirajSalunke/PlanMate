@@ -14,7 +14,7 @@ export const Route = createRootRoute({
 function RootComponent() {
   return (
     <>
-      {useLocation().pathname != "/" && <div>Hello</div>}
+      {/* {useLocation().pathname != "/" && <div>Hello</div>} */}
       {/* <h1>sdsdsd</h1> */}
       <Outlet />
       <TanStackRouterDevtools position="bottom-right" />
